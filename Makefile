@@ -1,6 +1,6 @@
 .PHONY: all lint test install environment
 
-SRC_DIR = examplepackage
+SRC_DIR = wordle
 
 lint: 
 	flake8 $(SRC_DIR)
