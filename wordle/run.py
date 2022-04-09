@@ -1,6 +1,6 @@
 """The wordle game"""
 
-from wordle._wordle import WordleGame
+from wordle.core import WordleGame
 
 if __name__ == "__main__":
     WordleGame("catch").play()
