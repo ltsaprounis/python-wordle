@@ -17,18 +17,18 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 
-.. automodule:: examplepackage
+.. automodule:: wordle
    :members:
 
-examplemodule
+core
 =============
 
-.. automodule:: examplepackage.examplemodule
+.. automodule:: wordle.core
    :members:
 
 
-badmodule
+utils
 =============
 
-.. automodule:: examplepackage.badmodule
+.. automodule:: wordle.utils
    :members:

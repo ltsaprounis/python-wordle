@@ -3,11 +3,11 @@ __author__ = ["ltsaprounis"]
 from setuptools import setup, find_packages
 
 setup(
-    name="examplepackage",
-    version="x.x",
+    name="wordle",
+    version="0.0",
     packages=find_packages(),
-    description="package description",
-    author="author name",
+    description="a python standard lib implementation of wordle",
+    author="ltsaprounis",
     install_requires=[
         # nothing
     ],
