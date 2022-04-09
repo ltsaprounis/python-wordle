@@ -133,6 +133,7 @@ class WordleGame:
         word = self.user_input().upper().replace(" ", "")
         if word == self.target_word_:
             self._used_words_str += utils.decorate_correct(word)
+            self._correct_letters_set.update(set(word))
             self._success = True
         elif not self.check_word_valid(word):
             print(f">> {word} is not a real word")
@@ -145,7 +146,6 @@ class WordleGame:
 
     def play(self):
         """Play the game."""
-        print(self.target_word_)
         while self._tries_remaining > 0 and not self._success:
             self.single_round()
 
